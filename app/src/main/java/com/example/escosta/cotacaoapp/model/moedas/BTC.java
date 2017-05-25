@@ -33,7 +33,7 @@ public class BTC implements Parcelable {
 
     public String getUltimaConsulta() {
         Date dateTime = new Date((long)ultimaConsulta*1000);
-        return String.valueOf("R$ " + dateTime.getHours()+":"+dateTime.getMinutes());
+        return String.valueOf(dateTime.getHours()+":"+dateTime.getMinutes());
     }
 
     public void setUltimaConsulta(int ultimaConsulta) {

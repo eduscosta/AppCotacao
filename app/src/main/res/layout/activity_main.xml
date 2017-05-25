@@ -17,37 +17,34 @@
             name="libra"
             type="com.example.escosta.cotacaoapp.model.moedas.GBP"/>
     </data>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        tools:context="com.example.escosta.cotacaoapp.MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.escosta.cotacaoapp.MainActivity">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="16dp">
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="Moeda"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                 android:text="Cotação"/>
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
                 android:gravity="center_horizontal"
@@ -58,23 +55,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="16dp">
+            android:layout_margin="16dp">
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="@{dolar.nome}"/>
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:layout_weight="1"
+                android:layout_weight="1.5"
                 android:gravity="center_horizontal"
                 android:text="@{dolar.valor}"/>
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:layout_weight="1"
@@ -85,49 +82,50 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="16dp">
+            android:layout_margin="16dp">
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="@{euro.nome}"/>
             <TextView
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:layout_weight="1"
+                android:layout_weight="1.5"
                 android:gravity="center_horizontal"
                 android:text="@{euro.valor}"/>
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:layout_weight="1"
                 android:gravity="center_horizontal"
                 android:text="@{euro.ultimaConsulta}"/>
         </LinearLayout>
-<LinearLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="16dp">
+            android:layout_margin="16dp">
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:layout_weight="1"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
                 android:text="@{libra.nome}"/>
             <TextView
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:layout_weight="1"
+                android:layout_weight="1.5"
                 android:gravity="center_horizontal"
                 android:text="@{libra.valor}"/>
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:layout_weight="1"
@@ -138,22 +136,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="16dp">
+            android:layout_margin="16dp">
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:layout_weight="1"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
                 android:text="@{peso.nome}"/>
             <TextView
                 android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:layout_weight="1"
+                android:layout_weight="1.5"
                 android:gravity="center_horizontal"
                 android:text="@{peso.valor}"/>
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:layout_weight="1"
@@ -165,30 +164,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="16dp">
+            android:layout_margin="16dp">
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 android:gravity="center_horizontal"
                 android:text="@{bitcoin.nome}"/>
             <TextView
-                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_width="0dp"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:layout_weight="1"
+                android:layout_weight="1.5"
                 android:gravity="center_horizontal"
                 android:text="@{bitcoin.valor}"/>
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                android:gravity="center_horizontal"
                 android:layout_weight="1"
+                android:gravity="center_horizontal"
                 android:text="@{bitcoin.ultimaConsulta}"/>
         </LinearLayout>
-
         <Button
             android:layout_width="150dp"
             android:layout_height="wrap_content"
@@ -196,5 +194,4 @@
             android:layout_gravity="center_horizontal"
             android:text="GET"/>
     </LinearLayout>
-    </ScrollView>
 </layout>
