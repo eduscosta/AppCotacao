@@ -49,9 +49,9 @@ public class MainActivity extends AppCompatActivity {
 
             binding.setEuro(euro);
             binding.setDolar(dolar);
-            binding.setBitcoin(bitcoin);
             binding.setLibra(libra);
             binding.setPeso(peso);
+            binding.setBitcoin(bitcoin);
         }
     };
 
